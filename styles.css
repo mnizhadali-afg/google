@@ -1,0 +1,49 @@
+/* Stylesheet */
+		body {
+			font-family: sans-serif; 
+		}
+
+		div#searchBox {
+			margin-top: 10em;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+		#inputSearchBox {
+			margin-top: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 10px;
+			padding-left: 20px;
+			width: 500px;
+			height: 25px;
+			border: 1px lightgray solid;
+			border-radius: 25px;
+			font-size: 18px;
+		}
+
+		#inputSearchBox:hover {
+			box-shadow: 0 0 8px rgba(122, 120, 120, 0.226);
+		}
+
+		.buttons {
+			margin: 30px 5px 40px 5px;
+			padding: 10px 20px 10px 20px;
+			border: none;
+			font-size: 14px;
+			border-radius: 3px;
+			background-color: rgba(220, 224, 224, 0.205);
+		}
+
+		.buttons:hover {
+			border: 0.5px lightgray solid;
+			box-shadow: 0 0 1px rgba(122, 120, 120, 0.226);
+		}
+
+		.labels {
+			font-size: 13px;
+			padding-right: 5px;
+			padding-left: 5px;
+			text-decoration: none;
+		}
